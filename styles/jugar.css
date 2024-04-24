@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+.buttonFormPadre{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formButton{
+    width: 200px;
+    height: 80px;
+    margin: 20px;
+
+    background:linear-gradient(140deg, rgb(220, 255, 253) 0%, rgb(116, 229, 120) 100%);
+
+    border-radius: 10px;
+    border: solid black 2px;
+    -webkit-text-stroke: black 1px;
+    color: black;
+
+    text-align: center;
+    font-size: 20px;
+    font-family: system-ui, sans-serif;
+
+    transition: all 0.5s;
+}
+
+.formButton:hover{
+    transition: all 0.3s;
+    border-radius: 5px;
+
+    background:linear-gradient(140deg, rgb(197, 227, 226) 0%, rgb(98, 194, 101) 100%);
+    box-shadow: 0 0 10px black;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container .formImg{
+    border: solid black 2px;
+    box-shadow: 0 0 10px black;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+.sportImg{
+    border: solid black 2px;
+    cursor: pointer;
+    box-shadow: 0 0 2px black;
+    background-color: ghostwhite;
+    width: 200px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.sportImg:hover{
+    transition: all 0.5s;
+    border-radius: 2px;
+    background-color: rgb(224, 224, 224);
+    box-shadow: 0 0 6px black;
+
+}
+
+#img-container-MV{
+    display: none;
+}
+
+.number{
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Black Ops One', impact;
+
+}
+
+.pCenter{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    #img-container-PC{
+        display: none;
+    }
+
+    #img-container-MV{
+        display: flex;
+    }
+
+    #img-container-MV img{
+        margin: 40px 0;
+        width: 200px;
+    }
+
+    .formButton{
+        margin: 50px 0;
+        width: 250px;
+        height: 100px;
+        font-size: 30px;
+    }
+
+    p{
+    font-size: 30px;
+    }
+
+    .pCenter{
+        margin-left: 50px;
+        margin-right: 50px;
+        word-spacing: -2px;
+        text-align: justify;
+    }
+
+    .number{
+        font-size: 3    5px;
+    }
+    .sportImg{
+        width: 200px;
+        margin: 40px;
+    }
+
+}

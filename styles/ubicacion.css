@@ -1,0 +1,28 @@
+.iMap{
+    display: flex;
+    justify-content: center;
+}
+
+.iMap iframe{
+    width: 700px;
+    height: 450px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .iMap iframe{
+        width: 80%;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .iMap iframe{
+        width: 80%;
+        height: 200px;
+    }
+
+    main h1{
+        font-size: 30px;
+    }
+}

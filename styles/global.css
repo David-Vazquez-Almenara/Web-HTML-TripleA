@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+
+body{
+    margin: auto;
+    background-color: white;
+}
+
+main{
+    margin: 150px auto 0 auto ;
+    padding: 40px 100px;
+    width: 70%;
+
+    background-color: rgba(255, 255, 255);
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.25);
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Black Ops One', impact;
+    text-align: center;
+
+    margin-bottom: 70px;
+
+    color: white;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 0 0 10px black; 
+
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+p{
+    font-size: 20px;
+    font-family: system-ui, sans-serif;
+    text-align: justify;    
+}
+
+h2{
+    margin-top: 100px;
+    font-size: 40px;
+    font-family:  Arial, Helvetica, sans-serif;
+
+    color: black;
+    text-shadow: 0 0 10px black; 
+
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+main{
+    display: block;
+    justify-content: center;
+    width: 100vw;
+    padding: 0 1px;
+    margin: 150px 0 0 0;
+}
+main h1{
+    padding-top: 40px;
+    font-size: 30px;
+}
+main h2{
+    text-align: center;
+}
+main p{
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+}
+
+
+#footer img{
+    width: 60px;
+    margin: 40px 20px;
+    border-radius: 100%;
+}
+
+#footer .img1:hover{
+    background: linear-gradient(160deg, #C13584, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040);
+}
+
+#footer .img2:hover{
+    background: #30A7DF;
+}
+
+#footer .img3:hover{
+    background:rgb(24, 204, 11);
+}
